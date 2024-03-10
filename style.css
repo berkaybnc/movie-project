@@ -1,0 +1,169 @@
+*{
+    
+    font-weight: bold;
+    
+}
+
+.header {
+    background: url(image/arkaplan.jpeg) no-repeat center/cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nowbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 64px;
+    width: 100%;
+}
+
+.nowbar img {
+    width: 80px;
+    height: 30px;
+}
+
+.nowbar button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+ 
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.searchbox input {
+    padding-block: 0px;
+    padding-inline: 0px;
+    width: 500px;
+    height: 36px;
+
+}
+
+.searchbox button {
+    width: 95px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+ 
+}
+
+.overlay {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.640);
+    margin: 0;
+    padding: 0;
+    border-bottom: 7px solid #232323;
+}
+
+
+
+.maintext {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.maintext h1 {
+    font-size: 55px;
+
+}
+
+.maintext h2 {
+    font-size: 30px;
+
+}
+
+.maintext p {
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.topSection {
+    padding: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 7px solid #232323;;
+    
+}
+#secondpage img {
+    width: 380px;
+    height: 230px;
+}
+.middleSection{
+    padding: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    border-bottom: 7px solid #232323;
+}
+#thirdpage img{
+    width: 350px;
+    height: 300px;
+}
+#fourthpage{
+    flex-direction: row;
+}
+#fourthpage img{
+    width: 330px;
+    height: 280px;
+}
+
+.footerSection{
+    
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 7px solid #232323;
+}
+
+.footerSectionLast{
+    
+    background-color: black;
+    color: grey;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    border-bottom: 7px solid #232323;
+}
+
+#footerpart{
+    color:black;
+}
+
+
+
